@@ -1,9 +1,6 @@
 # Java, Spring Boot Mini Project - Library Management System
 
 
-# Local setup
-
-# Library Management System
 
 ## Overview
 
