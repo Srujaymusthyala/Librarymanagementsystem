@@ -3,21 +3,43 @@
 
 # Local setup
 
-Step 1: Download or clone the source code from GitHub to the local machine
+# Library Management System
 
-Step 2: Install JDK 17 - https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+## Overview
 
-Step 3: Install IntelliJ IDEA or Eclipse or Apache NetBeans IDE
+This Library Management System is developed using Spring Boot, Docker, and PostgreSQL. The application provides a robust platform for managing library resources, including books, users, and lending operations, ensuring efficient and organized management of library activities.
 
-Step 4: Install Apache Maven - https://maven.apache.org/install.html
+## Features
 
-Step 5:  ```mvn clean install```
+- **Book Management**: Add, update, delete, and search for books in the library.
+- **User Management**: Register and manage library users.
+- **Lending System**: Issue and return books, track lending history, and manage due dates.
+- **Search and Filter**: Advanced search and filtering capabilities for books and users.
+- **Notifications**: Send reminders for due dates and overdue books.
 
-Step 6:  ```mvn spring-boot:run```
+## Technologies Used
 
-Step 7: From the browser call the endpoint http://localhost:9080
+- **Spring Boot**: Backend framework for building Java-based applications.
+- **Docker**: Containerization of the application for consistent and scalable deployment.
+- **PostgreSQL**: Relational database for storing book, user, and transaction data.
 
-Step 8: Admin Login User Id: ```admin@admin.in``` & Password: ```Temp123```
+## Prerequisites
+
+Before you start, ensure you have the following installed:
+
+- Java 11 or higher
+- Docker
+- Docker Compose
+- Maven (for building the project)
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/library-management-system.git
+cd library-management-system
+
 
 
 # Admin Login Interface
